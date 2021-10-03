@@ -1,0 +1,64 @@
+body {
+    height: 97.51vh;
+    background: 
+    linear-gradient(45deg, rgb(79, 4, 255), transparent),repeating-linear-gradient(45deg, rgb(183, 0, 255)0%, rgb(183, 0, 255)5%, transparent 0%, transparent 10%),
+    rgb(216, 18, 255) repeating-linear-gradient(-45deg, rgba(183, 0, 255, 0.5)0%, rgb(183, 0, 255, 0.5)5%, transparent 0%, transparent 10%) ;
+
+}
+
+h1{ 
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    color: aliceblue;
+    text-align: center;
+    /* padding: 0 0 0; */
+}
+
+h1:hover{ 
+    text-transform: uppercase;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: rgb(255, 25, 186);
+    border-width: 17px;
+    width: 100px;
+}
+img {
+    padding: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+}
+
+
+
+a:hover{
+    color: black;
+    text-shadow: 0 0 2em white;
+}
+
+
+.anchor{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+
+
+.button {
+    padding-left: au;
+    font-size: 2rem;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    border: 0.1em solid white;
+    padding: 0.1em 1em;
+    border-radius: 4em;
+    text-shadow: 0 0 0.9em white;
+    color: aliceblue;
+}
+
